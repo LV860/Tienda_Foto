@@ -26,7 +26,7 @@ El **Proyecto Tienda de Fotos** es una aplicación de escritorio desarrollada en
 3. Configurar las credenciales de la base de datos en `application.properties` *(si aplica)*.  
 4. Clonar el repositorio:  
    ```bash
-   git clone https://github.com/usuario/proyecto-tienda-fotos.git
+   git clone https://github.com/LV860/Tienda_Foto.git
    cd proyecto-tienda-fotos
 
 
