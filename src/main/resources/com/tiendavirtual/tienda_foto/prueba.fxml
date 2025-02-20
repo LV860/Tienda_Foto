@@ -1,0 +1,13 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="392.0" prefWidth="367.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tiendavirtual.tienda_foto.HelloController">
+    <children>
+        <Label layoutX="130.0" layoutY="27.0" prefHeight="28.0" prefWidth="122.0" text="Registro de Compras" />
+        <ListView layoutX="52.0" layoutY="62.0" prefHeight="88.0" prefWidth="264.0" />
+        <Button layoutX="59.0" layoutY="164.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="82.0" text="Consultar" />
+        <Button layoutX="108.0" layoutY="315.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="150.0" text="Generar reporte" />
+        <TextField layoutX="166.0" layoutY="170.0" promptText="numero de compra" />
+        <ListView layoutX="59.0" layoutY="217.0" prefHeight="88.0" prefWidth="264.0" />
+    </children>
+</AnchorPane>

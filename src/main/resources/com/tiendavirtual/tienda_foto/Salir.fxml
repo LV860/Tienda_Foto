@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tiendavirtual.tienda_foto.HelloController">
+   <children>
+      <Button fx:id="btnSalir" layoutX="160.0" layoutY="350.0" maxWidth="100.0" mnemonicParsing="false" onAction="#onbtnSalirClick" prefWidth="60.0" text="Salir" />
+      <Label layoutX="110.0" layoutY="30.0" prefWidth="140.0" text="Informacion Compra">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="120.0" text="Total de la compra: " />
+      <Label layoutX="40.0" layoutY="160.0" text="Lo que se pago:" />
+      <Label fx:id="txtInfoPago" layoutX="150.0" layoutY="160.0" prefWidth="150.0" text=" ">
+         <graphic>
+            <Label fx:id="txtInfoTotalCompra" prefWidth="150.0" text="." />
+         </graphic>
+      </Label>
+      <Label layoutX="40.0" layoutY="200.0" text="Cambio: " />
+      <Label fx:id="txtInfoCambio" layoutX="150.0" layoutY="200.0" prefWidth="150.0" text="." />
+      <Label fx:id="txtTotalCompra1" layoutX="150.0" layoutY="120.0" prefWidth="150.0" text="." />
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tiendavirtual.tienda_foto.HelloController">
+   <children>
+      <ListView fx:id="lstFotos" editable="true" fixedCellSize="50.0" layoutX="35.0" layoutY="44.0" prefHeight="96.0" prefWidth="300.0" />
+      <Label layoutX="156.0" layoutY="14.0" text="Compra">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="35.0" layoutY="160.0" text="Nombre de la foto:" />
+      <Label layoutX="35.0" layoutY="191.0" text="Cantidad:" />
+      <TextField fx:id="txtNombreFotoAgregada" layoutX="156.0" layoutY="156.0" />
+      <TextField fx:id="txtCantidadFotoAgregada" layoutX="156.0" layoutY="187.0" />
+      <Button fx:id="btnAgregarFoto" layoutX="142.0" layoutY="227.0" mnemonicParsing="false" onAction="#OnbtnAgregarFotoClicked" text="Agregar Foto" />
+      <Button fx:id="btnRecargar" layoutX="231.0" layoutY="10.0" mnemonicParsing="false" onAction="#onbtnRecargarClick" text="Recargar Lista Fotos" />
+      <Button fx:id="btnRevisarCompra" layoutX="243.0" layoutY="279.0" mnemonicParsing="false" onAction="#onbtnRevisarCompraClick" text="Revisar Compra" />
+   </children>
+</AnchorPane>
